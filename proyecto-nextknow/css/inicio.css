@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    width: 100%;
+    height: 45px;
+    background: #263238;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 10px 6px -6px;
+
+
+}
+
+.logotipo h4{
+    position: relative;
+    left: 65px;
+    bottom: 26;
+    color: #d3d3d3;
+}
+
+.logotipo img{
+    width: 35px;
+    height: 35px;
+    left: 10px;
+    position: relative;
+    border-radius: 2px;
+    top: 5px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 50px;
+    bottom: 80px;
+    padding: 10px;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #d3d3d3;
+    transition: 0.3s;
+}
+
+.menu li a:hover{
+    color: #6eddb8;
+}
+
+.seccion1{
+    width: 100%;
+    height: 70%;
+    background: #263238;
+}
+
+.catalogo img{
+    width: 500px;
+    height: auto;
+    float: right;
+    right: 60px;
+    position: relative;
+}
+
+.slogan h3{
+    top: 120px;
+    position: relative;
+    color: #d3d3d3;
+    font-size: 50;
+    left: 90;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+
+.slogan p{
+    position: relative;
+    top: 140px;
+    color: #d3d3d3;
+    font-size: 29;
+    left: 15px;
+}
+
+.seccion2 {
+    width: 100%;
+    height: 80%;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    position: relative;
+}
+
+.otros{
+    background: red;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin: 50px;
+    display: inline-block;
+    cursor: pointer;
+    background: #d3d3d3;
+    box-shadow: 0px 3px 4px 0px;
+    transition: 0.05s;
+    color: #232323;
+    text-align: center;
+    
+}
+
+.otros:hover{
+box-shadow:
+1px 1px #53a7ea,
+2px 2px #53a7ea,
+3px 3px #53a7ea;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+
+.otros img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    
+}
+
+footer{
+    width: 100%;
+    height: 30%;
+    background: #263238;
+    position: relative;
+}
+
+footer .informacion{
+    width: 500px;
+    height: 0;
+    color: aliceblue;
+    left: 50px;
+    position: relative;
+    top: 15px;
+}
+
+footer .redes{
+    float: right;
+    color: azure;
+    position: relative;
+    right: 50px;
+        
+}
+
+.redes a{
+    text-decoration: none;
+    color: aliceblue
+}
+
+footer h6{
+    letter-spacing: 2;
+    
+}
+
+footer i{
+    padding: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
